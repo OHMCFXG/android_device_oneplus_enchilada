@@ -47,7 +47,7 @@ export FOX_USE_NANO_EDITOR="1"
 
 
 # test var
-export FOX_USE_SPECIFIC_MAGISK_ZIP="/home/hcx/Magisk/Magisk-v22.1.zip"
+export FOX_USE_SPECIFIC_MAGISK_ZIP="~/Magisk/Magisk-v22.1.zip"
 # export OF_USE_GREEN_LED="0"
 # export OF_ALLOW_DISABLE_NAVBAR="0"
 # export OF_DONT_KEEP_LOG_HISTORY="1"
