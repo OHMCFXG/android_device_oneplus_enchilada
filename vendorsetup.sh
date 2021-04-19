@@ -1,7 +1,7 @@
 export TARGET_ARCH="arm64-v8a"
 
 # Version
-export FOX_VERSION="R11.1"
+export FOX_VERSION="R11.1-20210419"
 export OF_MAINTAINER="OHMCFXG"
 
 
@@ -12,7 +12,7 @@ export OF_USE_MAGISKBOOT_FOR_ALL_PATCHES="1"
 
 # Display
 export OF_SCREEN_H="2280"
-export OF_STATUS_H="80"
+export OF_STATUS_H="-80"
 export OF_STATUS_INDENT_LEFT="42"
 export OF_STATUS_INDENT_RIGHT="42"
 
@@ -47,14 +47,14 @@ export FOX_USE_NANO_EDITOR="1"
 
 
 # test var
-export FOX_USE_SPECIFIC_MAGISK_ZIP="~/Magisk/Magisk-v22.1.zip"
+export FOX_USE_SPECIFIC_MAGISK_ZIP="/home/hcx/Magisk/Magisk-v22.1.zip"
 # export OF_USE_GREEN_LED="0"
 # export OF_ALLOW_DISABLE_NAVBAR="0"
 # export OF_DONT_KEEP_LOG_HISTORY="1"
-# export TARGET_DEVICE_ALT="enchilada, oneplus 6, OnePlus6"
+export TARGET_DEVICE_ALT="enchilada, oneplus 6, OnePlus6"
 # export OF_SUPPORT_ALL_BLOCK_OTA_UPDATES="1"
 export OF_DISABLE_MIUI_OTA_BY_DEFAULT="1"
-# export FOX_DISABLE_APP_MANAGER="1"
+export FOX_DISABLE_APP_MANAGER="1"
 # export OF_RUN_POST_FORMAT_PROCESS="1"
 
 
